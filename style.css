@@ -1,0 +1,40 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: aquamarine;
+    height: 25%;
+    width: 75%;
+    float: left;
+}
+
+header{
+    background-color: yellow;
+    height: 25%;
+    width: 25%;
+    float: left;
+}
+
+#texto{
+    background-color: blueviolet;
+    height: 80%;
+    width: 50%;
+    float: left;
+}
+
+#produto{
+    background-color: cornflowerblue;
+    height: 80%;
+    width: 50%;
+    float: left;
+}
+
+footer{
+    background-color: cadetblue;
+    height: 15%;
+    width: 100%;
+    clear: both;
+}
