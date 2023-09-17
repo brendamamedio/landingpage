@@ -1,40 +1,50 @@
-html,body{
-    height: 100%;
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #333;
 }
 
-nav{
-    background-color: aquamarine;
-    height: 25%;
-    width: 75%;
-    float: left;
+.conteudo {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
 }
 
-header{
-    background-color: yellow;
-    height: 25%;
-    width: 25%;
-    float: left;
+header {
+    background-color: #c13bff;
+    color: #fff;
+    text-align: left;
+    padding: 1rem;
 }
 
-#texto{
-    background-color: blueviolet;
-    height: 80%;
-    width: 50%;
-    float: left;
+#texto {
+    font-family: 'Russo One', sans-serif;
+    height:35rem;
+    color: #ffffff;
+    font-size: clamp(4em, 1em + 5vw, 5em);
+    text-align: center;
+    padding-top: 3rem;
 }
 
-#produto{
-    background-color: cornflowerblue;
-    height: 80%;
-    width: 50%;
-    float: left;
+#produto {
+    height:35rem;
+    background: radial-gradient(circle at 50% 50%, rgba(156, 39, 176, 1) 0%, rgba(156, 39, 176, 0) 50%);
+    transform: rotate(-20deg);
+    text-align: center;
+    padding-top: 3rem;
 }
 
-footer{
-    background-color: cadetblue;
-    height: 15%;
-    width: 100%;
-    clear: both;
+footer {
+    background-color: #db63ff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    /* Alterar o layout para telas maiores */
+    .conteudo {
+        grid-template-columns: 1fr 1fr;
+    }
 }
