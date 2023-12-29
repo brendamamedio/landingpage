@@ -12,34 +12,65 @@ body {
 }
 
 header {
-    background-color: #c13bff;
+    padding-left: 2rem;
+    width: 97.4%;
+    display:flex;
+    align-items: center;
+    background-color: #000000;
+    margin-bottom: 2rem;
+}
+
+a{
+    text-decoration: none;
     color: #fff;
-    text-align: left;
-    padding: 1rem;
+    margin: 1rem;
 }
 
 #texto {
     font-family: 'Russo One', sans-serif;
-    height:35rem;
+    height:27rem;
     color: #ffffff;
     font-size: clamp(4em, 1em + 5vw, 5em);
     text-align: center;
-    padding-top: 3rem;
 }
 
 #produto {
-    height:35rem;
-    background: radial-gradient(circle at 50% 50%, rgba(156, 39, 176, 1) 0%, rgba(156, 39, 176, 0) 50%);
-    transform: rotate(-20deg);
+    height:27rem;
+    background: radial-gradient(circle at 50% 50%, rgb(255, 0, 8) 0%, rgba(0, 0, 0, 0) 50%);
     text-align: center;
-    padding-top: 3rem;
+    margin-bottom: 6rem;
+}
+
+.img{
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    transform: rotate(-20deg);
+    padding-bottom: 0.5rem;
+}
+
+#logo{
+    width: 7rem;
+}
+
+#sabores{
+    background-color: aqua;
+    width: 100%;
+    height:35rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+#uva{
+    width: 89px;
 }
 
 footer {
     background-color: #db63ff;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding: 1rem;
+    position: relative;
 }
 
 @media screen and (min-width: 768px) {
